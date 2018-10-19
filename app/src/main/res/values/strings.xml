@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wifi</string>
+
+    <string name = "toolbar_title">Sample Code</string>
+    <string name = "toolbar_subtitle">By Monroe Shed</string>
+
+    <!-- needed for instructions layout -->
+    <string name = "textview_introduction">The sample code shows use of Broadcast Receivers, Intent Filters, Kotlin, and pure Android coding.</string>
+
+    <string name = "textview_instructions">NOTE: Turn the Wifi and Mobile Data on/off in your Notification Tray or Phone Settings to change the Internet Status.</string>
+    <string name = "button_text">Phone Settings</string>
+
+    <string name = "textview_internet_status">Internet Status</string>
+    <string name = "textview_internet_connected">Connected</string>
+    <string name = "textview_internet_not_connected">Not Connected</string>
+
+</resources>

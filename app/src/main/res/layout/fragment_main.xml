@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_blue">
+
+    <include
+            android:id="@+id/toolbar"
+            layout="@layout/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"/>
+
+    <include
+            android:id="@+id/instructions"
+            layout="@layout/app_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"/>
+
+    <TextView
+            android:id="@+id/textview_internet_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:text="@string/textview_internet_status"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+    />
+
+    <TextView
+            android:id="@+id/textview_internet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:text="@string/textview_internet_connected"
+            android:layout_below="@+id/textview_internet_status"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+    />
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:padding="10dp"
+            android:text="@string/button_text"
+            android:textColor="@color/black"
+            android:layout_margin="30dp"
+    />
+
+</RelativeLayout>
